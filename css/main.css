@@ -119,3 +119,24 @@ figcaption {
   padding-top: 5px;
   text-align: left;
 }
+
+blockquote {
+  border-bottom: 3px solid #333;
+  border-top: 3px solid #333;
+  color: #666;
+  float: left;
+  font-size: 1.5rem;
+  margin-left: -150px;
+  margin-right: 15px;
+  width: 40%;
+}
+
+blockquote p:first-child::first-letter {
+  background-color: #fff;
+  border: 0;
+  color: #666;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  padding-right: 6px;
+}
